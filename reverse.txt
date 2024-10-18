@@ -1,0 +1,7 @@
+#!/bin/bash
+
+read -p "Enter the value: $1"
+
+Final_result=$("$1"  grep | rev)
+
+echo "Final_result" 
